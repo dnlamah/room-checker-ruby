@@ -1,0 +1,5 @@
+<%= simple_form_for @room do |f| %>
+    <%= f.input :title, label: "Room Name" %>
+    <%= f.input :max_occupancy, label: "Maximum Number in Room" %>
+    <%= f.button :submit %>
+<% end %>

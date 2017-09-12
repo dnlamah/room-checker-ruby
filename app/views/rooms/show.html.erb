@@ -1,0 +1,5 @@
+<h2><%= @room.title %></h2>
+<h3><%= @room.max_occupancy%></h3>
+<%= link_to "Back", root_path %>
+<%=link_to "Edit", edit_room_path(@room) %>
+<%= link_to "Delete", room_path(@room), method: :delete, data: { confirm: "Are you sure ?" } %>

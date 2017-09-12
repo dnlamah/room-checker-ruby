@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: 
+  type: 
+  beds: 
+  max_occupancy: 
+  cost_per_night: 
+  reserved: 
+  to: 
+
+two:
+  number: 
+  type: 
+  beds: 
+  max_occupancy: 
+  cost_per_night: 
+  reserved: 
+  to: 

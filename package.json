@@ -1,5 +1,29 @@
 {
   "name": "room-checker",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnlamah/room-checker-ruby.git"
+  },
+  "keywords": [
+    "Room",
+    "Checking",
+    "Application"
+  ],
+  "author": "Daniel Amah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnlamah/room-checker-ruby/issues"
+  },
+  "homepage": "https://github.com/dnlamah/room-checker-ruby#readme"
 }

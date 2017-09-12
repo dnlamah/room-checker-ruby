@@ -1,0 +1,6 @@
+<% @rooms.each do |room| %>
+<h2><%= link_to room.title, room_path(room) %></h2>
+<p>Maximum number in this room: <%=room.max_occupancy%></p>
+<%end%>
+
+<%= link_to "Add Room", new_room_path %>
